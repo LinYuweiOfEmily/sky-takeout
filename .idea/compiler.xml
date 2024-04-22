@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sky-common" />
+        <module name="sky-pojo" />
+        <module name="sky-common (1)" />
+        <module name="sky-pojo (1)" />
+        <module name="sky-server (1)" />
+        <module name="sky-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springcache-demo" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="sky-common" options="-parameters" />
+      <module name="sky-common (1)" options="-parameters" />
+      <module name="sky-pojo" options="-parameters" />
+      <module name="sky-pojo (1)" options="-parameters" />
+      <module name="sky-server" options="-parameters" />
+      <module name="sky-server (1)" options="-parameters" />
+      <module name="springcache-demo" options="-parameters" />
+    </option>
+  </component>
+</project>
